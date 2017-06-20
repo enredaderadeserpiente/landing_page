@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *after{
+  box-sizing; inherit;
+}
+.clearfix:before, .clearfix:after{
+  content: "";
+  display: table;
+}
+clearfix:after{
+  clear:both;
+}
+.clearfix{
+  *zoom: 1;
+}
+.clear{
+  clear:both;
+}
+h1{
+  font-size: 50px;
+  text-align: center;
+}
+navbar {
+  float:rigth;
+}
+navbar li{
+  float:right;
+  padding: 50px;
+  list-style-type: none;
+}
+header{
+ background-image: url(images/p2pbg.jpg);
+ height:  500px;
+ width: 1170;
+ color: #eff5ff;
+}
+.margin_navbar{
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.boton_texto{
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 80px;
+
+}
+ button{
+
+  height: 60px;
+  width:120px;
+  border-radius: 20px;
+  background-color:#ed4a44;
+  font-size: 14px;
+
+}
+
+.texto_abajo_boton{
+  margin-top: 50px;
+  text-align: center;
+
+}
+.al_medio{
+  margin-top: 60px;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.al_medio p{
+  margin-bottom: 100px;
+}
+.imagen{
+  margin-bottom: 50px:
+}
+.al_medio_abajo_general{
+  background-color: lightgrey;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+.al_medio_abajo{
+  margin-top: 60px;
+  margin-left: 120px;
+  margin-right: 120px;
+  text-align: center;
+
+}
+.al_medio_abajo p {
+  margin-bottom: 10px;
+}
+.contacto{
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-bottom: 50px;
+  width: 400px;
+  float: left;
+}
+.suscribete{
+  float: left;
+  margin-top: 50px;
+
+}
+* {
+  font-family: "Lato";
+}
